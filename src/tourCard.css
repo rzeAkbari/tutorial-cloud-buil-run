@@ -1,0 +1,49 @@
+.container{
+    width: 50%;
+    height: auto;
+    background: #efefef;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+.title{
+
+}
+.image{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    place-content: space-between;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.price{
+    color: blue;
+}
+.description{
+    padding: 1rem;
+}
+.more-text{
+    display: inline-block;
+}
+.less-text{
+    display: none;
+}
+.more{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.eliminate{
+    margin: auto;
+    position: relative;
+    display: block;
+    width: 40%;
+    height: 2rem;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}

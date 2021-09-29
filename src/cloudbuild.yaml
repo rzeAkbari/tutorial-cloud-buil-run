@@ -1,0 +1,11 @@
+  steps:
+  - name: node
+    entrypoint: npm
+    args: ['install']
+  - name: node
+    entrypoint: npm
+    args: ['test']
+  steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/terraform-tutorial-324710/tutorial-tour', '.' ]
+images: ['gcr.io/terraform-tutorial-324710/tutorial-tour']

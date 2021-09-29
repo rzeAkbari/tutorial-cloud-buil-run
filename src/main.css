@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap');
+:root * { 
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+  }
+.title{
+  font-size: 2rem;
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.underline{
+  margin: 1px;
+  background: blue;
+  width: 10%;
+  height: 2px;
+  margin-bottom: 2rem;
+}
